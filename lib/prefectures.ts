@@ -1,0 +1,56 @@
+// TopoJSON source: lightweight Japan-by-prefecture. For production, vendor the file.
+// You can use a hosted topo as a quick start, e.g. https://cdn.jsdelivr.net/npm/japan-map-json@1.0.1/japan.topojson
+// (Replace with your vetted asset and proper license handling.)
+export const topoUrl = 'https://cdn.jsdelivr.net/npm/japan-map-json@1.0.1/japan.topojson';
+
+
+export type PrefMeta = { slug: string; nameEN: string; nameJA: string };
+export const PREF_META: Record<string, PrefMeta> = {
+'01': { slug: 'hokkaido', nameEN: 'Hokkaido', nameJA: '北海道' },
+'02': { slug: 'aomori', nameEN: 'Aomori', nameJA: '青森県' },
+'03': { slug: 'iwate', nameEN: 'Iwate', nameJA: '岩手県' },
+'04': { slug: 'miyagi', nameEN: 'Miyagi', nameJA: '宮城県' },
+'05': { slug: 'akita', nameEN: 'Akita', nameJA: '秋田県' },
+'06': { slug: 'yamagata', nameEN: 'Yamagata', nameJA: '山形県' },
+'07': { slug: 'fukushima', nameEN: 'Fukushima', nameJA: '福島県' },
+'08': { slug: 'ibaraki', nameEN: 'Ibaraki', nameJA: '茨城県' },
+'09': { slug: 'tochigi', nameEN: 'Tochigi', nameJA: '栃木県' },
+'10': { slug: 'gunma', nameEN: 'Gunma', nameJA: '群馬県' },
+'11': { slug: 'saitama', nameEN: 'Saitama', nameJA: '埼玉県' },
+'12': { slug: 'chiba', nameEN: 'Chiba', nameJA: '千葉県' },
+'13': { slug: 'tokyo', nameEN: 'Tokyo', nameJA: '東京都' },
+'14': { slug: 'kanagawa', nameEN: 'Kanagawa', nameJA: '神奈川県' },
+'15': { slug: 'niigata', nameEN: 'Niigata', nameJA: '新潟県' },
+'16': { slug: 'toyama', nameEN: 'Toyama', nameJA: '富山県' },
+'17': { slug: 'ishikawa', nameEN: 'Ishikawa', nameJA: '石川県' },
+'18': { slug: 'fukui', nameEN: 'Fukui', nameJA: '福井県' },
+'19': { slug: 'yamanashi', nameEN: 'Yamanashi', nameJA: '山梨県' },
+'20': { slug: 'nagano', nameEN: 'Nagano', nameJA: '長野県' },
+'21': { slug: 'gifu', nameEN: 'Gifu', nameJA: '岐阜県' },
+'22': { slug: 'shizuoka', nameEN: 'Shizuoka', nameJA: '静岡県' },
+'23': { slug: 'aichi', nameEN: 'Aichi', nameJA: '愛知県' },
+'24': { slug: 'mie', nameEN: 'Mie', nameJA: '三重県' },
+'25': { slug: 'shiga', nameEN: 'Shiga', nameJA: '滋賀県' },
+'26': { slug: 'kyoto', nameEN: 'Kyoto', nameJA: '京都府' },
+'27': { slug: 'osaka', nameEN: 'Osaka', nameJA: '大阪府' },
+'28': { slug: 'hyogo', nameEN: 'Hyogo', nameJA: '兵庫県' },
+'29': { slug: 'nara', nameEN: 'Nara', nameJA: '奈良県' },
+'30': { slug: 'wakayama', nameEN: 'Wakayama', nameJA: '和歌山県' },
+'31': { slug: 'tottori', nameEN: 'Tottori', nameJA: '鳥取県' },
+'32': { slug: 'shimane', nameEN: 'Shimane', nameJA: '島根県' },
+'33': { slug: 'okayama', nameEN: 'Okayama', nameJA: '岡山県' },
+'34': { slug: 'hiroshima', nameEN: 'Hiroshima', nameJA: '広島県' },
+'35': { slug: 'yamaguchi', nameEN: 'Yamaguchi', nameJA: '山口県' },
+'36': { slug: 'tokushima', nameEN: 'Tokushima', nameJA: '徳島県' },
+'37': { slug: 'kagawa', nameEN: 'Kagawa', nameJA: '香川県' },
+'38': { slug: 'ehime', nameEN: 'Ehime', nameJA: '愛媛県' },
+'39': { slug: 'kochi', nameEN: 'Kochi', nameJA: '高知県' },
+'40': { slug: 'fukuoka', nameEN: 'Fukuoka', nameJA: '福岡県' },
+'41': { slug: 'saga', nameEN: 'Saga', nameJA: '佐賀県' },
+'42': { slug: 'nagasaki', nameEN: 'Nagasaki', nameJA: '長崎県' },
+'43': { slug: 'kumamoto', nameEN: 'Kumamoto', nameJA: '熊本県' },
+'44': { slug: 'oita', nameEN: 'Oita', nameJA: '大分県' },
+'45': { slug: 'miyazaki', nameEN: 'Miyazaki', nameJA: '宮崎県' },
+'46': { slug: 'kagoshima', nameEN: 'Kagoshima', nameJA: '鹿児島県' },
+'47': { slug: 'okinawa', nameEN: 'Okinawa', nameJA: '沖縄県' }
+};
